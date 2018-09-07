@@ -1,14 +1,15 @@
 .wrapper{
-    padding: 0 2em;
+    padding: 0 4em;
 }
 
-p {
+p, #subtitulo {
     font-family: 'Roboto', sans-serif;
     color: #7f888f;
 }
 p>b{
     color: black;
 }
+
 
 ul li {
     list-style-type: none;
@@ -17,6 +18,9 @@ ul li {
     color: #7f888f;
 }
 
+i:hover{
+    color: #f56a6a;
+}
 .grid-test{
     display: grid;
     grid-template-columns: 55% 45%;
@@ -24,14 +28,15 @@ ul li {
 }
 
 #imagen{
-    width: 40rem;
+    width: 90%;
+    height: 20em;
     border-radius: 1em;
 }
 
 .Btopazio{
     background-color: white;
-    border: 0.5px solid #ff7e00;
-    color: #ff7e00;
+    border: 0.5px solid #f56a6a;
+    color: #f56a6a;
     padding: 0.5em 1em;
     border-radius: 0.3em;
 
@@ -48,8 +53,41 @@ header{
 
 .sub-footer{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49% 49%;
     grid-template-rows: 50% 50%;
     grid-column-gap: 2em;
 }
+
+#orange1 {
+    border: #f56a6a solid;
+}
+
+#orange2 {
+    border: #f56a6a solid;
+    width: 15rem;
+    display: inline-flex;
+    
+}
+
+#grayline{
+    border: #acb9c2 solid 0.1em;
+}
+
+.footer-element{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+footer i{
+    color: #f56a6a;
+    font-size: 3em;
+}
+
+.icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
