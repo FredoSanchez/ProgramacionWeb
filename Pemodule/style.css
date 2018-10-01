@@ -35,20 +35,19 @@ nav ul li a{
     color: white;
 }
 
-section{
-
-}
 .arts12{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 #article1{
+    width: 100%;
     background-color: white;
     padding: 2.5em 0.8em;  
 }
 
 #article2{
     height: 25em;
+   
     background-image: url(public/img/parallux-bg.jpg);
     background-attachment: fixed;
     background-position: center;
@@ -65,15 +64,40 @@ section{
     
 }
 
+
 #article3 img{
-    width: 28em;
-    margin: 1em 0.5em;
-    border-radius: 2%;
+        width: 25em;
+        margin: 1em 0.5em;
+        border-radius: 2%;
 }
 
+@media only screen and (max-width: 1200px){
+    #article3 img{
+        width: 20em;
+        margin: 1em 0.5em;
+        border-radius: 2%;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #article3 img{
+        width: 25em;
+        margin: 1em 0.5em;
+        border-radius: 2%;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    #article3 img{
+        width: 15em;
+        margin: 1em 0.5em;
+        border-radius: 2%;
+    }
+}
 
 aside #mss{
-    background-image: url(public/img/s2.jpg)
+    background-image: url(public/img/s2.jpg);
+    background-size: cover;
 }
 
 aside #suscribe{
