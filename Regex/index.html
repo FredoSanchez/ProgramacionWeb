@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header>
+        <h1>Sign up.</h1>
+    </header>
+    <section>
+        <article>
+            <form action="" method="POST"></form>
+            <fieldset>
+                <legend><h3>Personal information</h3></legend>
+
+
+                <fieldset>
+                    <legend><h4>Complete name</h4></legend>
+                    <label for="Fname">First name: </label>
+                    <input type="text" name="Firstname" id="Fname" placeholder="Firstname" required>
+
+                    <input type="button" value="Check" id="checkbtn">
+                    </fieldset>
+
+                <br>
+
+                <label for="age">Age:</label>
+                <input type="text" id="age" placeholder="Your must be an adult">
+
+                <br><br>
+
+                <input type="button" value="Confirm" id="confirmbtn">
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend><h3>Account</h3></legend>
+
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+
+                <br><br>
+
+                <label for="pass">Password: </label>
+                <input type="password" name="pass" id="pass" placeholder="8 or more characters">
+
+                <br><br>
+
+                <input type="button" value="Check password" id="passbtn">
+            </fieldset>
+
+            
+
+            <input type="submit" value="Sign up">
+            </form>
+        </article>
+    </section>
+</body>
+<script src="asset/js/script.js"></script>
+</html>
